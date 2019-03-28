@@ -6,7 +6,7 @@
 ### Author: Erin Trainor
 
 ### Links and Resources
-* [PR](http://xyz.com)
+* [PR](https://github.com/401-advanced-javascript-401d29/lab-08/pull/2)
 * Travis [![Build Status](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-08.svg?branch=master)](https://www.travis-ci.com/401-advanced-javascript-401d29/lab-08)
 
 <!-- #### Documentation -->
