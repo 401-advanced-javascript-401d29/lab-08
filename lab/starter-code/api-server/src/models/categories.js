@@ -13,7 +13,13 @@ class Categories {
     this.database = [];
   }
 
-  get(_id) {}
+  get(_id) {
+      let response = _id
+        ? this.database.filter( record => record._id === _id)[0]
+        : this.database;
+
+      return response;
+  }
 
   post(record) {
     record._id = uuid();
@@ -34,7 +40,6 @@ class Categories {
     Object.keys(schema).forEach(field => {
       if (record[field] === undefined || typeof record[field] !== 'string') {
         boolean = false;
-      } else {
       }
     });
     return boolean;
